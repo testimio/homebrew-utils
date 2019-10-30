@@ -11,15 +11,15 @@ class SeleniumHub < Formula
       (etc/"selenium/hubConfig.json").write <<~EOS
       {
         "port": 4444,
-        "newSessionWaitTimeout": 25000,
+        "newSessionWaitTimeout": 1000,
         "servlets": [],
         "capabilityMatcher": "org.openqa.grid.internal.utils.DefaultCapabilityMatcher",
         "throwOnCapabilityNotPresent": true,
         "nodePolling": 5000,
         "cleanUpCycle": 5000,
-        "browserTimeout": 120000,
-        "timeout": 120000,
-        "maxSession": 5
+        "browserTimeout": 0,
+        "timeout": 30,
+        "maxSession": 1
       }
       EOS
 
