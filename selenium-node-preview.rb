@@ -18,6 +18,7 @@ class SeleniumNodePreview < Formula
             "platform": "MAC",
             "maxInstances": 1,
             "seleniumProtocol": "WebDriver",
+            "version": "13.0.5"
           }
         ],
         "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
