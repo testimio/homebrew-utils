@@ -1,4 +1,4 @@
-class SeleniumNode < Formula
+class SeleniumNodePreview < Formula
     desc "Browser automation for safari-preview testing purposes"
     homepage "https://www.seleniumhq.org/"
     url "https://selenium-release.storage.googleapis.com/3.141/selenium-server-standalone-3.141.59.jar"
