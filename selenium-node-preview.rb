@@ -39,10 +39,10 @@ class SeleniumNodePreview < Formula
       EOS
 
       libexec.install "selenium-server-standalone-#{version}.jar"
-      bin.write_jar_script libexec/"selenium-server-standalone-#{version}.jar", "selenium-node"
+      bin.write_jar_script libexec/"selenium-server-standalone-#{version}.jar", "selenium-node-preview"
     end
   
-    plist_options :manual => "selenium-node -port 5556 -role node"
+    plist_options :manual => "selenium-node-preview -port 5556 -role node"
 
     def plist; <<~EOS
       <?xml version="1.0" encoding="UTF-8"?>
