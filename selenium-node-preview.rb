@@ -7,8 +7,8 @@ class SeleniumNodePreview < Formula
     bottle :unneeded
   
     def install
-      rm_f etc/"selenium/nodeConfig.json"
-      (etc/"selenium/nodeConfig.json").write <<~EOS
+      rm_f etc/"selenium/nodeConfigPreview.json"
+      (etc/"selenium/nodeConfigPreview.json").write <<~EOS
       {
         "capabilities":
         [
@@ -63,7 +63,7 @@ class SeleniumNodePreview < Formula
           <string>-role</string>
           <string>node</string>
           <string>-nodeConfig</string>
-          <string>#{etc}/selenium/nodeConfig.json</string>
+          <string>#{etc}/selenium/nodeConfigPreview.json</string>
         </array>
         <key>ServiceDescription</key>
         <string>Selenium Server</string>
