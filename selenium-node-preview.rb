@@ -13,12 +13,13 @@ class SeleniumNodePreview < Formula
         "capabilities":
         [
           {
-            "browserName": "safari",
+            "browserName": "safari technology preview",
             "technologyPreview": true,
             "platform": "MAC",
             "maxInstances": 1,
             "seleniumProtocol": "WebDriver",
-            "version": "13.0.5"
+            "version": "13.0.5",
+            "webdriver.safari.driver": "/Applications/Safari Technology Preview.app/Contents/MacOS/safaridriver"
           }
         ],
         "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
