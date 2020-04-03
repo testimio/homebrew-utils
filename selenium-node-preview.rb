@@ -1,7 +1,7 @@
 class SeleniumNodePreview < Formula
     desc "Browser automation for safari-preview testing purposes"
     homepage "https://www.seleniumhq.org/"
-    url "https://selenium-release.storage.googleapis.com/3.141/selenium-server-standalone-3.141.59.jar"
+    url "https://selenium-release.storage.googleapis.com/3.8/selenium-server-standalone-3.8.0.jar"
     sha256 "acf71b77d1b66b55db6fb0bed6d8bae2bbd481311bcbedfeff472c0d15e8f3cb"
   
     bottle :unneeded
@@ -13,12 +13,11 @@ class SeleniumNodePreview < Formula
         "capabilities":
         [
           {
-            "browserName": "safari technology preview",
+            "browserName": "safari",
             "technologyPreview": true,
             "platform": "MAC",
             "maxInstances": 1,
             "seleniumProtocol": "WebDriver",
-            "version": "13.0.5",
             "webdriver.safari.driver": "/Applications/Safari Technology Preview.app/Contents/MacOS/safaridriver"
           }
         ],
