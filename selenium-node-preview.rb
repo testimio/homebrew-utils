@@ -2,7 +2,7 @@ class SeleniumNodePreview < Formula
     desc "Browser automation for safari-preview testing purposes"
     homepage "https://www.seleniumhq.org/"
     url "https://selenium-release.storage.googleapis.com/3.8/selenium-server-standalone-3.8.0.jar"
-    sha256 "acf71b77d1b66b55db6fb0bed6d8bae2bbd481311bcbedfeff472c0d15e8f3cb"
+    sha256 "bc851b7c69b83e7b873899b407f1accfc834b10be9196df3fe71a0a557340171"
   
     bottle :unneeded
   
