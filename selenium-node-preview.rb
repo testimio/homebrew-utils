@@ -4,7 +4,7 @@ class SeleniumNodePreview < Formula
     url "https://selenium-release.storage.googleapis.com/3.8/selenium-server-standalone-3.8.0.jar"
     sha256 "bc851b7c69b83e7b873899b407f1accfc834b10be9196df3fe71a0a557340171"
   
-    bottle :unneeded
+    #bottle :unneeded
   
     def install
       rm_f etc/"selenium/nodeConfigPreview.json"

@@ -4,7 +4,7 @@ class SeleniumNode < Formula
     url "https://selenium-release.storage.googleapis.com/3.141/selenium-server-standalone-3.141.59.jar"
     sha256 "acf71b77d1b66b55db6fb0bed6d8bae2bbd481311bcbedfeff472c0d15e8f3cb"
   
-    bottle :unneeded
+    #bottle :unneeded
   
     def install
       rm_f etc/"selenium/nodeConfig.json"
